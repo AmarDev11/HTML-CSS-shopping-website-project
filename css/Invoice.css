@@ -1,0 +1,187 @@
+body {
+  font-family: Arial;
+  font-size: 18px;
+  margin: 0;
+  padding: 8px;
+}
+
+#image{
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+}
+
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  margin: 0;
+}
+
+#navItems{
+  float: right;
+}
+a img{
+  width: 40px;
+}
+
+#Nike{
+  background-color: #333;
+  color: white;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  transition: all 300ms;
+}
+
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+h2, h3{
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+
+
+.col-50 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.clr{
+  margin-top: 25px;
+  background-color: steelblue;
+}
+.clr:hover{
+  background-color: #aa2222;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+.fa {
+  margin: 10px;
+  padding: 10px;
+  font-size: 10px;
+  width: 28px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+ }
+  .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-instagram {
+  background: #3f729b;
+  color: white;
+}
+.pa{
+width: 50%;
+text-align: center;
+margin: 0px -2px;
+color: white;
+}
+footer{
+  /*float: right;*/
+  padding-left: 70%;
+  background-color: #333;
+}
